@@ -1,3 +1,4 @@
+//Store input and paragraph
 const input = document.querySelector('.numberInput');
 const para = document.querySelector('p');
 //Square function
@@ -38,6 +39,7 @@ function circunference(num) {
     }
     return 2 * num * Math.PI;
 }
+//Calculations submit
 input.addEventListener('change', () => {
     const num = parseFloat(input.value);
     if (isNaN(num)) {
